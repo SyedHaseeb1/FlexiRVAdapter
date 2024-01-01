@@ -9,16 +9,18 @@ This is an example use-case demonstrating how to utilize the `FlexiRVAdapter` in
 
 Add the following dependency to your project's `build.gradle` file:
 
+### Groovy
 ```groovy
 dependencies {
     implementation 'com.github.syedhaseeb1:FlexiRVAdapter:$latest_version'
 }
-
+```
+### KTS
 ```kts
 dependencies {
     implementation("com.github.syedhaseeb1:FlexiRVAdapter:$latest_version")
 }
-
+```
 ## Usage
 
 ```kotlin
