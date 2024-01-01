@@ -3,9 +3,9 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
-def lib_version = "1.0.0"
+def lib_version = "1.0.2"
 android {
-    namespace 'com.hsb.felxiadapter'
+    namespace 'com.hsb.felxirvadapter'
     compileSdk 34
 
     defaultConfig {
@@ -54,8 +54,8 @@ afterEvaluate {
             from(components.findByName(variant.name))
             // artifact(androidJavadocsJar)
             //artifact(androidSourceJar)
-            groupId = "com.hsb.flexiadapter"
-            artifactId = "flexiadapter"
+            groupId = "com.hsb.flexirvadapter"
+            artifactId = "flexirvadapter"
             version = "$lib_version"
         }
     }
@@ -63,8 +63,8 @@ afterEvaluate {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            groupId = 'com.hsb.flexiadapter'
-            artifactId = 'flexiadapter'
+            groupId = 'com.hsb.flexirvadapter'
+            artifactId = 'flexirvadapter'
             version = "$lib_version" // Align with your versionName
 
             // Optional: Customize other publication settings like pom

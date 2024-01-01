@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.hsb.flexiadapter'
+    namespace 'com.hsb.flexirvadapter'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.hsb.flexi.adapter"
+        applicationId "com.hsb.flexirvadapter"
         minSdk 24
         targetSdk 34
         versionCode 1
