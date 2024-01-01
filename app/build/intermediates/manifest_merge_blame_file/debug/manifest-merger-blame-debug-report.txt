@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hsb.flexi.adapter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /home/syedhaseeb/.gradle/caches/transforms-3/70489d2d50c37b605c3d71e07b9bbbe2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.hsb.flexi.adapter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /home/syedhaseeb/.gradle/caches/transforms-3/70489d2d50c37b605c3d71e07b9bbbe2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /home/syedhaseeb/.gradle/caches/transforms-3/70489d2d50c37b605c3d71e07b9bbbe2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.hsb.flexi.adapter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /home/syedhaseeb/.gradle/caches/transforms-3/70489d2d50c37b605c3d71e07b9bbbe2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/syedhaseeb/.gradle/caches/transforms-3/70489d2d50c37b605c3d71e07b9bbbe2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:5:5-14:32
+18        android:allowBackup="true"
+18-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /home/syedhaseeb/.gradle/caches/transforms-3/70489d2d50c37b605c3d71e07b9bbbe2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:12:9-35
+28        android:theme="@style/Theme.AppCompat" >
+28-->/home/syedhaseeb/AndroidStudioProjects/FlexiRVAdapter/app/src/main/AndroidManifest.xml:13:9-47
+29        <provider
+29-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+30            android:name="androidx.startup.InitializationProvider"
+30-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+31            android:authorities="com.hsb.flexi.adapter.androidx-startup"
+31-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+32            android:exported="false" >
+32-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+33            <meta-data
+33-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+34                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+34-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+35                android:value="androidx.startup" />
+35-->[androidx.emoji2:emoji2:1.0.0] /home/syedhaseeb/.gradle/caches/transforms-3/2096bfc43473c0b3f9ceb8a9b7ae2d02/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+36            <meta-data
+36-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/syedhaseeb/.gradle/caches/transforms-3/87b5f19f9792bcda1823979e59644c33/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/syedhaseeb/.gradle/caches/transforms-3/87b5f19f9792bcda1823979e59644c33/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+38                android:value="androidx.startup" />
+38-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/syedhaseeb/.gradle/caches/transforms-3/87b5f19f9792bcda1823979e59644c33/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+39        </provider>
+40    </application>
+41
+42</manifest>

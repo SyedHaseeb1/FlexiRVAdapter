@@ -1,0 +1,44 @@
+# FlexiRVAdapter Usage Example
+
+This is an example use-case demonstrating how to utilize the `FlexiRVAdapter` in an activity.
+
+
+## Installation
+
+### Gradle
+
+Add the following dependency to your project's `build.gradle` file:
+
+```groovy
+dependencies {
+    implementation 'com.github.syedhaseeb1:FlexiRVAdapter:$latest_version'
+}
+
+```kts
+dependencies {
+    implementation("com.github.syedhaseeb1:FlexiRVAdapter:$latest_version")
+}
+
+## Usage
+
+```kotlin
+// Example use-case in activity
+val adapter = FlexiRVAdapter(Your_ItemView_binding::inflate)
+adapter.viewHolderBinderCallback = { your_model ->
+    val titleStr = your_model.title
+    val descStr = your_model.desc
+
+    tvTile.text = titleStr
+    tvDesc.text = descStr
+
+    itemView.safeClickListener {
+        // handle clicks
+    }
+}
+
+adapter.updateList(your_list)
+your_RV.layoutManager = verticalRv()
+your_RV.adapter = adapter
+
+// To refresh adapter with new list:
+adapter.submitList(your_new_list)
