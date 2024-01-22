@@ -3,13 +3,13 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
-def lib_version = "1.0.4"
+def lib_version = "1.0.5"
 android {
     namespace 'com.hsb.flexirvadapter'
     compileSdk 34
 
     defaultConfig {
-        minSdk 24
+        minSdk 21
         targetSdk 34
         versionCode 1
         versionName "$lib_version"
