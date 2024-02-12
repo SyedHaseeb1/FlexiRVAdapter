@@ -10,13 +10,16 @@ import androidx.viewbinding.ViewBinding
 
 /**
  * Developed by Syed Haseeb
- * Modified on Dec 29, 2023
+ * Modified on Feb 12, 2024
  */
 
 /**
  * Example use-case in activity
- *         val adapter = FlexiRVAdapter(Your_ItemView_binding::inflate)
- *             adapter.viewHolderBinderCallback = { your_model ->
+ *          val flexiRVAdapter = FlexiRVAdapter<ItemTypeModel,YourItemViewBinding>
+ *
+ *          flexiRVAdapter = FlexiRVAdapter(YourItemViewBinding::inflater)
+ *
+ *          flexiRVAdapter.viewHolderBinderCallback = { your_model ->
  *                 val titleStr = your_model.title
  *                 val descStr = your_model.desc
  *
@@ -30,14 +33,14 @@ import androidx.viewbinding.ViewBinding
  *
  *             }
  *
- *             adapter.updateList(your_list)
+ *             flexiRVAdapter.submitList(your_list)
  *             your_RV.layoutManager = verticalRv()
- *             your_RV.adapter = adapter
+ *             your_RV.adapter = flexiRVAdapter
  *
  *             //To refresh adapter with new list:
  *             adapter.submitList(your_new_list)
  *
- *___________________________________THE END.
+ *___________________________________THAT'S IT____
  */
 
 class FlexiRVAdapter<T, VB : ViewBinding>(
