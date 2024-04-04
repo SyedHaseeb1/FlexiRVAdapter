@@ -75,7 +75,7 @@ The screenshot below demonstrates multiple RecyclerViews with different layouts,
 * Rec View layout
 * Grid View layout
 
-![Screenshot](/screenshots/FlexiRvAdapter.png)
+![Screenshot](/Screenshots/FlexiRvAdapter.png)
 
 ## Contributing
 
